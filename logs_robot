@@ -1,0 +1,11 @@
+2023-07-15 19:51:58,716 ERROR || cannot access local variable 'url' where it is not associated with a value
+Traceback (most recent call last):
+  File "c:\Users\USER\robot\main.py", line 25, in contracts
+    logging.INFO('request successful'+ url, params)
+                                       ^^^
+UnboundLocalError: cannot access local variable 'url' where it is not associated with a value
+2023-07-15 19:51:58,724 ERROR || 'int' object is not callable
+Traceback (most recent call last):
+  File "c:\Users\USER\robot\main.py", line 32, in contracts
+    logging.INFO('conversion to json is successful')
+TypeError: 'int' object is not callable
